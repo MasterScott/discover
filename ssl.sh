@@ -1,5 +1,8 @@
 #!/bin/bash
 
+clear
+f_banner
+
 echo -e "${BLUE}Check for SSL certificate issues.${NC}"
 echo
 echo "List of IP:port."
@@ -226,3 +229,4 @@ echo
 echo -e "The new reports are located at ${YELLOW}$home/data/sslscan.txt, sslyze.txt, ${NC}and ${YELLOW}nmap-ssl.txt ${NC}"
 echo
 echo
+exit
