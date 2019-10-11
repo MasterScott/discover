@@ -1,8 +1,5 @@
 #!/bin/bash
 
-clear
-f_banner
-
 echo -e "${BLUE}Check for SSL certificate issues.${NC}"
 echo
 echo "List of IP:port."
