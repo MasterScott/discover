@@ -1655,7 +1655,7 @@ read choice
 
 case $choice in
      1) f_domain;;
-     2) f_person;;
+     2) $discover/person.sh;;
      3) f_salesforce;;
      4) f_generateTargetList;;
      5) f_cidr;;
@@ -1665,13 +1665,13 @@ case $choice in
      9) f_directObjectRef;;
      10) f_multitabs;;
      11) f_nikto;;
-     12) f_ssl; clear; f_banner; $discover/ssl.sh; exit;;
+     12) $discover/ssl.sh;;
      13) f_parse;;
-     14) f_payload; clear; f_banner; $discover/payload.sh; exit;;
-     15) f_listener; clear; f_banner; $discover/listener.sh; exit;;
-     16) $discover/update.sh; exit;;
+     14) $discover/payload.sh;;
+     15) $discover/listener.sh;;
+     16) $discover/update.sh;;
      17) echo; echo; exit;;
-     99) $discover/new-stuff.sh; exit;;
+     99) $discover/new-stuff.sh;;
      *) f_error;;
 esac
 }
