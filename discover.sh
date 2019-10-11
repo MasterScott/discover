@@ -1665,7 +1665,7 @@ case $choice in
      9) f_directObjectRef;;
      10) f_multitabs;;
      11) f_nikto;;
-     12) f_ssl clear; f_banner; $discover/ssl.sh; exit;;
+     12) f_ssl; clear; f_banner; $discover/ssl.sh; exit;;
      13) f_parse;;
      14) f_payload; clear; f_banner; $discover/payload.sh; exit;;
      15) f_listener; clear; f_banner; $discover/listener.sh; exit;;
