@@ -1,6 +1,5 @@
 #!/bin/bash
 
-f_ssl(){
 clear
 f_banner
 
@@ -230,4 +229,3 @@ echo
 echo -e "The new reports are located at ${YELLOW}$home/data/sslscan.txt, sslyze.txt, ${NC}and ${YELLOW}nmap-ssl.txt ${NC}"
 echo
 echo
-exit
