@@ -1,5 +1,8 @@
 #!/bin/bash
 
+clear
+f_banner
+
 echo -e "${BLUE}Metasploit Listeners${NC}"
 echo
 echo "1.   android/meterpreter/reverse_tcp"
@@ -88,3 +91,4 @@ msfconsole -r /tmp/listener.rc
 
 echo
 echo
+exit
