@@ -289,4 +289,4 @@ echo -e "${BLUE}Updating locate database.${NC}" ; updatedb
 
 echo
 echo
-
+exit
